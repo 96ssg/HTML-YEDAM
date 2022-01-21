@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>회원 가입</title>
+        <style>
+            table,
+            td,
+            th {
+                border: 3px double #222;
+                border-collapse: collapse;
+                text-align: center;
+            }
+          
+           
+        </style>
+    </head>
+    <body>
+        <form>
+
+            <h3>회원 가입</h3>
+            <table>
+                <tr>
+                    <td>아이디</td>
+                        <td><input type="text" name="id"></td>
+                        
+                </tr>
+                <tr>
+                    <td>이름</td>
+                        <td><input type="text" name="name"></td>
+                        
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                        <td><input type="password" name="password"></td>
+                        
+                </tr>
+                <tr>
+                    <td>비밀번호 확인</td>
+                        <td><input type="password" name="password"></td>
+                        
+                </tr>
+                <tr>
+                    <td>전화번호</td>
+                       <td> <input type="text" name="phone" placeholder="010-123-4567"></label>
+                        
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                        <td><input type="email" name="email"></td>
+                        
+                </tr>
+                <tr>
+                    <td>문자수신 여부</td>
+                    <td><input type="radio" name="a" value="yes">예
+                        <input type="radio" name="a" value="no">아니오
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>가입경로</td>
+                    <td><input type="checkbox" name="subject" value="친구소개">친구소개
+                        <input type="checkbox" name="subject" value="인터넷 검색">인터넷 검색
+                        <input type="checkbox" name="subject" value="블로그">블로그
+                        <input type="checkbox" name="subject" value="기타">기타
+                    </td>
+                   
+                    
+                    
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
